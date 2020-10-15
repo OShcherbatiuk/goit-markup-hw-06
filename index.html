@@ -478,8 +478,32 @@
           <use href="./images/sprite.svg#close-btn"></use>
         </svg>
         </button>
+          <h2 class="contact-form__title">Оставьте свои данные, мы вам перезвоним</h2>
+          <form action="#" method="GET" class="contact-form">
+            <ul class="contact-form__list list">
+              <li class="contact-form__list__item">
+                <label for="user-name">Имя</label>
+                <input type="text" name="user-name" class="contact-form__input" id="user-name">
+              </li>
+              <li class="contact-form__list__item">
+                <label for="user-phone">Телефон</label>
+                <input type="tel" name="user-phone" class="contact-form__input" id="user-phone">
+              </li>
+              <li class="contact-form__list__item">
+                <label for="user-email">Почта</label>
+                <input type="email" name="user-email" class="contact-form__input" id="user-email">
+              </li>
+              <li class="contact-form__list__item">
+                <label for="user-message">Комментарий</label>
+                <textarea name="user-message" id="user-message" class="contact-form__message" 
+                placeholder="Введите текст"></textarea>
+              </li>
+            </ul>
+            <button type="submit" class="contact-form__submit">Отправить</button>
+          </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
+
