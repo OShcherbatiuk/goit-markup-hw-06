@@ -469,9 +469,15 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p class="footer-text-item">Подпишитесь на рассылку</p>
+          <form action="#" class="footer-form">
+            <input type="email" name="user-email" class="footer-form__input" placeholder="E-mail" required>
+            <button type="submit" class="footer-form__submit send">Подписаться</button>
+          </form>
       </div>
     </footer>
-
+    <!-- MODAL -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close> <svg class="cls-btn" width="18px" height="18px">
@@ -480,25 +486,16 @@
         </button>
           <h2 class="contact-form__title">Оставьте свои данные, мы вам перезвоним</h2>
           <form action="#" method="GET" class="contact-form">
-            <ul class="contact-form__list list">
-              <li class="contact-form__list__item">
-                <label for="user-name">Имя</label>
-                <input type="text" name="user-name" class="contact-form__input" id="user-name">
-              </li>
-              <li class="contact-form__list__item">
-                <label for="user-phone">Телефон</label>
-                <input type="tel" name="user-phone" class="contact-form__input" id="user-phone">
-              </li>
-              <li class="contact-form__list__item">
-                <label for="user-email">Почта</label>
-                <input type="email" name="user-email" class="contact-form__input" id="user-email">
-              </li>
-              <li class="contact-form__list__item">
-                <label for="user-message">Комментарий</label>
-                <textarea name="user-message" id="user-message" class="contact-form__message" 
-                placeholder="Введите текст"></textarea>
-              </li>
-            </ul>
+            <label for="user-name">Имя</label>
+            <input type="text" name="user-name" class="contact-form__input" id="user-name">
+            <label for="user-phone">Телефон</label>
+            <input type="tel" name="user-phone" class="contact-form__input" id="user-phone">
+            <label for="user-email">Почта</label>
+            <input type="email" name="user-email" class="contact-form__input" id="user-email">
+            <label for="user-message">Комментарий</label>
+            <textarea name="user-message" id="user-message" class="contact-form__message" 
+            placeholder="Введите текст"></textarea>
+            <input type="checkbox">
             <button type="submit" class="contact-form__submit">Отправить</button>
           </form>
       </div>
