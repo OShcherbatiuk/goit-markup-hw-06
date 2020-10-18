@@ -724,12 +724,11 @@ img {
 }
 
 .footer-form__submit::after {
+  margin-left: 10px;
   content: "";
   width: 24px;
   height: 24px;
-  border: 1px solid black;
-  background-image: url(../images/sprite.svg#send-icon);
-  color: aqua;
+  background-image: url(../images/footer/send-icon.svg);
 }
 
 /*==============  END FOOTER ==============*/
