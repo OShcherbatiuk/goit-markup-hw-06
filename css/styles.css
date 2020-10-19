@@ -395,6 +395,7 @@ img {
   background-color: var(--accent-color);
   background-repeat: no-repeat;
   background-position: center;
+  outline: 1px solid var(--accent-color);
 }
 
 .accept-link {
