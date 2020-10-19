@@ -86,7 +86,7 @@
       <!--FEATURES-->
       <section class="features">
         <div class="container">
-          <h2 hidden>Особенности</h2>
+          <h2 class="visually-hidden">Особенности</h2>
           <ul class="features-list list">
             <li class="features-list-item">
               <h3 class="features-title detail">Внимание к деталям</h3>
@@ -516,7 +516,8 @@
             <label for="user-message" class="contact-form-field">Комментарий</label>
             <textarea name="user-message" id="user-message" class="contact-form__message" 
             placeholder="Введите текст"></textarea>
-            <input type="checkbox" class="contact-form-accept">
+            <input type="checkbox" class="contact-form-accept" value="accept" id="user-accept">
+            <label for="user-accept">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label>
             <button type="submit" class="contact-form__submit" value="submit">Отправить</button>
           </form>
       </div>
